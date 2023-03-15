@@ -10,6 +10,11 @@ namespace Clase2EjemploAlumnos
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hola Mundo!");
+
+            // si no ponemos esta linea, la consola se abre
+            // y se cierra muy rapido
+            Console.ReadLine();
         }
     }
 }

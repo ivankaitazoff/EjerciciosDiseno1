@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F7CB73A1-1349-4FB7-AAA7-D0972FFEC2F6}</ProjectGuid>
+    <ProjectGuid>{29AB31B9-A1B9-417C-A889-E47CAD88FA8A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Clase2EjemploAlumnos</RootNamespace>
-    <AssemblyName>Clase2EjemploAlumnos</AssemblyName>
+    <RootNamespace>EjemploAlumnos</RootNamespace>
+    <AssemblyName>EjemploAlumnos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
